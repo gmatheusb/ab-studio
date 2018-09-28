@@ -97,10 +97,11 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
-	padding:280px 0;
+	background:url(../img/bgtop.jpg) no-repeat;
+	background-size: cover;
 }
 .logo{
+	padding-top: 70px;
 	width:130px;
 	margin:0 auto 35px;
 }
@@ -145,7 +146,7 @@ color: #fff;
 
 .link{
 	padding:15px 35px;
-	background:#7cc576;
+	background:#11004d;
 	color:#fff !important;
 	font-size:16px;
 	font-weight:400;
@@ -161,12 +162,12 @@ color: #fff;
 }
 .link:hover {
 	text-decoration:none;
-	color:#7cc576 !important;
+	color:#2380fa !important;
 	background:#fff;
 }
 
 .link:active, .link:focus {
-	background: #7cc576;
+	background: #008192;
 	text-decoration:none;
 	color:#fff !important;
 }
@@ -205,7 +206,7 @@ color: #fff;
 
 .main-nav li a:hover{ 
 	text-decoration:none;
-	color: #7cc576;
+	color: #2380fa;
 }
 
 .small-logo{ 
@@ -291,7 +292,7 @@ color: #fff;
 .Learn-More{
 	display:inline-block;
 	padding:0 5px 0 0;
-	color:#7cc576;
+	color:#2380fa;
 	font-size:16px;
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
