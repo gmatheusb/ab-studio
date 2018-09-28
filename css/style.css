@@ -94,8 +94,7 @@ p{
 	background-size: cover;
 }
 .logo{
-	padding-top: 30%;
-	width:130px;
+	padding-top: 10%;
 	margin:0 auto 35px;
 }
 .header h1{
@@ -458,7 +457,7 @@ border: 2px solid #fff;
 }
 
 .c-logo-part{
-	background:#7cc576;
+	background:#0098DA;
 	padding:25px 0;
     filter: alpha(opacity=60);
 }
