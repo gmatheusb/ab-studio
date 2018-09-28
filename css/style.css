@@ -87,16 +87,48 @@ p{
 
 /* Header Styles
 ---------------------------------*/
+@media screen and (min-width: 300px) {
+  	.logo{
+		padding-top: 45%;
+		margin:0 auto 35px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+  	.logo{
+		padding-top: 7%;
+		width: 200px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+    .logo{
+		padding-top: 7%;
+		max-width: 320px;
+		width:auto;
+	}
+}
+
+@media screen and (min-width: 1300px) {
+      
+    .logo{
+		padding-top: 7%;
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	.logo{
+		padding-top: 25%;
+	}
+}
 
 .header{
 	text-align:center;
 	background:url(../img/bgtop.jpg) no-repeat;
 	background-size: cover;
+
 }
-.logo{
-	padding-top: 10%;
-	margin:0 auto 35px;
-}
+
 .header h1{
 	font-family: 'Montserrat',sans-serif;
 	font-size:50px;
@@ -138,7 +170,7 @@ color: #fff;
 
 .link{
 	padding:15px 35px;
-	background:#11004d;
+	background:#09f;
 	color:#fff !important;
 	font-size:16px;
 	font-weight:400;
