@@ -890,3 +890,12 @@ border: 2px solid #fff;
 	animation-delay: 1.2s; 
 	-webkit-animation-delay: 1.2s; 
 }
+
+/* Custom : CSS
+--------------- */
+
+.iconServices{
+	font-size: 115px;
+	text-align: center;
+	color: #69f;
+}
